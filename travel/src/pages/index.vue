@@ -1,3 +1,4 @@
+<!-- https://github.com/zakaria-29-dev/Create-A-Tour-Travel-Agency-Website-Design-Using-Vuejs-and-Vuetify-HTML-CSS-JAVASCRIPT-/tree/main -->
 <template>
   <Navbar />
   <v-main>
@@ -108,6 +109,71 @@
           <v-row justify="center">
             <v-col cols="12" sm="10">
               <v-row>
+                <v-col cols="12" sm="4">
+                  <v-hover v-slots="{ isHovering, props }">
+                    <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
+                      <v-img src="/5.jpg" cover height="100%">
+                        <div class="d-flex flex-row-reverse">
+                          <v-btn class="text-none mr-2 mt-2" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0" elevation="12">
+                            3 Packages
+                          </v-btn>
+                        </div>
+                      </v-img>
+                    </v-card>
+                  </v-hover>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-hover v-slots="{ isHovering, props }">
+                    <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
+                      <v-img src="/5.jpg" cover height="100%">
+                        <div class="d-flex flex-row-reverse">
+                          <v-btn class="text-none mr-2 mt-2" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0" elevation="12">
+                            3 Packages
+                          </v-btn>
+                        </div>
+                      </v-img>
+                    </v-card>
+                  </v-hover>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-hover v-slots="{ isHovering, props }">
+                    <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
+                      <v-img src="/5.jpg" cover height="100%">
+                        <div class="d-flex flex-row-reverse">
+                          <v-btn class="text-none mr-2 mt-2" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0" elevation="12">
+                            3 Packages
+                          </v-btn>
+                        </div>
+                      </v-img>
+                    </v-card>
+                  </v-hover>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-hover v-slots="{ isHovering, props }">
+                    <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
+                      <v-img src="/5.jpg" cover height="100%">
+                        <div class="d-flex flex-row-reverse">
+                          <v-btn class="text-none mr-2 mt-2" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0" elevation="12">
+                            3 Packages
+                          </v-btn>
+                        </div>
+                      </v-img>
+                    </v-card>
+                  </v-hover>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-hover v-slots="{ isHovering, props }">
+                    <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
+                      <v-img src="/5.jpg" cover height="100%">
+                        <div class="d-flex flex-row-reverse">
+                          <v-btn class="text-none mr-2 mt-2" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0" elevation="12">
+                            3 Packages
+                          </v-btn>
+                        </div>
+                      </v-img>
+                    </v-card>
+                  </v-hover>
+                </v-col>
                 <v-col cols="12" sm="4">
                   <v-hover v-slots="{ isHovering, props }">
                     <v-card :elevation="isHovering ? 12 : 2" :class="{ 'on-hover': isHovering }" v-bind="props" class="card1">
